@@ -1,21 +1,14 @@
 export default {
     preload: [
       "https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto&family=Source+Sans+Pro&display=swap",
-      "https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap",
+      "https://fonts.googleapis.com/css?family=Merriweather&display=swap",
     ],
     colors: {
       darkNavyStart: "#1C3451",
       darkNavyEnd: "#0C1F2C",
       lightYellow: "#FCE257",
-      darkYellow: "#FCDD3B",
-      bookYellow: "#E5E5E5",
-      darkGrey: "#828D99",
-      textNavy: "#1D344E",
-      titleWhite: "#E5E5E5",
-      hoverYellow: "#EAD87B",
-      cardGrey: "#2A405C",
-      lightGrey: "#ADBBCA",
-      darkNavyEndLite: "#163245"
+      yellow: "#FCDD3B",
+        bookYellow: "#E5E5E5",
     },
     borderRadius: "3px",
     fonts: {
