@@ -1,6 +1,6 @@
 export default {
     preload: [
-      "https://fonts.googleapis.com/css?family=Inconsolata|La+Belle+Aurore&display=swap",
+      "https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto&family=Source+Sans+Pro&display=swap",
       "https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap",
     ],
     colors: {
