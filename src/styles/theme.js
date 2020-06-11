@@ -8,7 +8,7 @@ export default {
       darkNavyEnd: "#0C1F2C",
       lightYellow: "#FCE257",
       yellow: "#FCDD3B",
-        bookYellow: "#E5E5E5",
+      bookYellow: "#E5E5E5",
     },
     borderRadius: "3px",
     fonts: {

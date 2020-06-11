@@ -4,7 +4,7 @@ import media from "./media"
 import reset from "styled-reset"
 const { colors, fontSizes, fonts } = theme
 
-export default createGlobalStyle`
+ export default createGlobalStyle`
 ${props => props.theme.preload.map(url => '@import url("' + url + '");')}
   ${reset}
   * {
