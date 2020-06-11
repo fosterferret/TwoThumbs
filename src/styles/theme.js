@@ -4,11 +4,11 @@ export default {
     "https://fonts.googleapis.com/css?family=Merriweather&display=swap",
   ],
   colors: {
-    darkNavyStart: "#1C3451",
-    darkNavyEnd: "#0C1F2C",
-    lightYellow: "#FCE257",
-    yellow: "#FCDD3B",
-    bookYellow: "#E5E5E5",
+    darkGrey: "#242B32",
+    darkBg: "#15181C",
+    red: "#D8453E",
+    textGrey01: "#ACC2D8",
+    textGrey02: "#7A8797",
   },
   borderRadius: "3px",
   fonts: {
