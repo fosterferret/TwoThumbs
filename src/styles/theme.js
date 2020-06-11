@@ -12,12 +12,9 @@ export default {
   },
   borderRadius: "3px",
   fonts: {
-    FuturaPT:
-      "Futura PT, Montserrat, Roboto, -apple-system, system-ui, BlinkMacSystemFont",
-    FuturaPTLight:
-      "Futura PT Light, Montserrat, Roboto, -apple-system, system-ui, BlinkMacSystemFont",
-    Inconsolata: "Roboto Mono, Inconsolata, Monaco, monospace",
-    LaBelle: "La Belle Aurore, cursive",
+    Montserrat: "Montserrat, -apple-system, system-ui, BlinkMacSystemFont",
+    Merriweather: "Merriweather, Roboto",
+    Oswald: "Oswald, sans-serif",
   },
 
   fontSizes: {
