@@ -28,7 +28,7 @@ export const mixins = {
     text-decoration: none;
     &:hover,
     &:focus {
-      color: ${colors.bookYellow};
+      color: ${colors.red};
       outline: 0;
     }
     text-decoration-skip-ink: auto;
@@ -37,20 +37,20 @@ export const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.darkYellow};
+    color: #fff;
     background-color: transparent;
-    border: 1px solid ${colors.darkYellow};
+    border: 1px solid ${colors.red};
     border-radius: ${theme.borderRadius};
     padding: 0.95rem 1.5rem;
     font-size: calc(${fontSizes.sm} - 0.5px);
-    font-family: ${fonts.FuturaPT};
+    font-family: ${fonts.Montserrat};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.hoverYellow};
+      color: ${colors.red};
     }
     &:after {
       display: none !important;
@@ -58,38 +58,22 @@ export const mixins = {
   `,
 
   button: css`
-    color: ${colors.darkYellow};
+    color: #fff;
     background-color: transparent;
-    border: 1px solid ${colors.darkYellow};
+    border: 1px solid ${colors.red};
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.FuturaPT};
+    font-family: ${fonts.Montserrat};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.lightYellow};
+      background-color: ${colors.red};
     }
     &:after {
       display: none !important;
-    }
-  `,
-
-  socialMediaList: css`
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-size: ${fontSizes.sm};
-    li {
-      position: relative;
-      &:before {
-        content: "▹";
-        position: absolute;
-        left: 0;
-        color: ${colors.darkYellow};
-      }
     }
   `,
 };
