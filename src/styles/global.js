@@ -1,11 +1,11 @@
-import { createGlobalStyle } from "styled-components"
-import theme from "./theme"
-import media from "./media"
-import reset from "styled-reset"
-const { colors, fontSizes, fonts } = theme
+import { createGlobalStyle } from "styled-components";
+import theme from "./theme";
+import media from "./media";
+import reset from "styled-reset";
+const { colors, fontSizes, fonts } = theme;
 
- export default createGlobalStyle`
-${props => props.theme.preload.map(url => '@import url("' + url + '");')}
+export default createGlobalStyle`
+${(props) => props.theme.preload.map((url) => '@import url("' + url + '");')}
   ${reset}
   * {
     box-sizing: border-box;
@@ -36,7 +36,8 @@ ${props => props.theme.preload.map(url => '@import url("' + url + '");')}
   body {
     width: 100%;
     overflow-x: hidden;
-    color: #fff;
+    font-family: ${theme.fonts.Montserrat};
+    background-color: ${theme.colors.darkBg};
     line-height: 1.5em;
     font-size: ${fontSizes.xl} 
     ${media.tablet`font-size: ${fontSizes.lg};`};
@@ -57,4 +58,4 @@ ${props => props.theme.preload.map(url => '@import url("' + url + '");')}
       color: #fff;
     }
   }
-`
+`;
