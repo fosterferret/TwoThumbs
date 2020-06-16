@@ -39,8 +39,8 @@ ${(props) => props.theme.preload.map((url) => '@import url("' + url + '");')}
     font-family: ${theme.fonts.Montserrat};
     background-color: ${theme.colors.darkBg};
     line-height: 1.5em;
-    font-size: ${fontSizes.xl} 
-    ${media.tablet`font-size: ${fontSizes.lg};`};
+    font-size: ${fontSizes.l} 
+    ${media.tablet`font-size: ${fontSizes.l};`};
     ${media.phablet`font-size: ${fontSizes.md}`};
   }
 
