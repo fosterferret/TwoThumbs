@@ -8,16 +8,20 @@ const StyledNav = styled.nav`
   justify-content: center;
 `;
 
-const RightSide = styled.div``
-
-const LeftSide = styled.div``
-
-
+const RightSide = styled.div``;
+const LeftSide = styled.div``;
 
 const NavBar = () => {
-  return <StyledNav>
+  return (
+    <StyledNav>
+      <RightSide>
 
-  </StyledNav>;
+      </RightSide>
+      <LeftSide>
+          
+      </LeftSide>
+    </StyledNav>
+  );
 };
 
 export default NavBar;
