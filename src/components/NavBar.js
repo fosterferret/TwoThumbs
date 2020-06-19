@@ -2,30 +2,50 @@ import React from "react";
 import styled from "styled-components";
 import theme from "../styles/theme";
 
+const Container = styled.div`
+  width: 100%;
+  background-color: ${theme.colors.yellow};
+  margin-top: 0rem;
+  padding: 2rem;
+`;
+
 const StyledNav = styled.nav`
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font: ${theme.fonts.Merriweather};
+  margin: 0 auto;
 `;
 
-const RightSide = styled.div``;
-const LeftSide = styled.div``;
-const RightSideItem = styled.a`
-  text-decoration: note;
+const NavRight = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+`;
+const NavLeft = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+`;
+const NavRightItem = styled.a`
+  text-decoration: none;
 `;
 
 const NavBar = () => {
   return (
-    <StyledNav>
-      <RightSide>
-        <RightSideItem></RightSideItem>
-        <RightSideItem></RightSideItem>
-        <RightSideItem></RightSideItem>
-      </RightSide>
-      <LeftSide></LeftSide>
-    </StyledNav>
+    <Container>
+      <StyledNav>
+        <NavLeft>
+          <a>buttonmash</a>
+        </NavLeft>
+        <NavRight>
+          <NavRightItem>Sign In</NavRightItem>
+          <NavRightItem>Register</NavRightItem>
+          <NavRightItem>Games</NavRightItem>
+        </NavRight>
+      </StyledNav>
+    </Container>
   );
 };
 

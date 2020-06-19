@@ -38,6 +38,7 @@ ${(props) => props.theme.preload.map((url) => '@import url("' + url + '");')}
     overflow-x: hidden;
     font-family: ${theme.fonts.Montserrat};
     background-color: ${theme.colors.darkBg};
+    color: white;
     line-height: 1.5em;
     font-size: ${fontSizes.l} 
     ${media.tablet`font-size: ${fontSizes.l};`};
