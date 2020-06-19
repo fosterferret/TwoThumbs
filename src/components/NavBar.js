@@ -37,7 +37,7 @@ const NavBar = () => {
     <Container>
       <StyledNav>
         <NavLeft>
-          <a>buttonmash</a>
+          <a>Buttonmash</a>
         </NavLeft>
         <NavRight>
           <NavRightItem>Sign In</NavRightItem>
