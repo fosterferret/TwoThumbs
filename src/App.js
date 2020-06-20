@@ -2,13 +2,13 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/global";
 import theme from "./styles/theme";
-import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <NavBar />
+      <Home/>
     </ThemeProvider>
   );
 };
