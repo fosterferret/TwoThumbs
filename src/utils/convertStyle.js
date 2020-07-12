@@ -11,8 +11,6 @@ function replaceRvhWithPx(propertyStringValue, windowHeight) {
   );
 }
 
-//ddd
-
 function convertStyle(windowHeight) {
   const defaultStyle = { height: "100rvh" };
   const usedStyle = defaultStyle;

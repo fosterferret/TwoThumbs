@@ -6,7 +6,7 @@ import rdr from "../assets/images/rdr.png";
 const Description = styled.div`
   display: flex;
   flex-direction: column;
-`;
+`; 
 
 const StyledImage = styled.div`
   width: 100%;
@@ -29,7 +29,8 @@ const Hero = () => {
     </StyledImage>
     <Description>
       <p>Log games you've played.</p>
-      <p>Log games you've played.</p>
+      <p>Log games you've played!!!</p>
+      <p>Log games you've playefddd.</p>
       <p>Log games you've played.</p>
     </Description>
     </>
