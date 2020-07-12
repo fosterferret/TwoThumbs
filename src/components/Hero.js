@@ -30,6 +30,7 @@ const Hero = () => {
     <Description>
       <p>Log games you've played.</p>
       <p>Log games you've played.</p>
+      <p>Log games you've played.</p>
     </Description>
     </>
   );
