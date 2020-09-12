@@ -5,7 +5,6 @@ import theme from "../styles/theme";
 const Container = styled.div`
   width: 100%;
   background-color: ${theme.colors.yellow};
-  margin-top: 0rem;
   padding: 2rem;
   height: 30px;
 `;
