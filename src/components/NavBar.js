@@ -32,7 +32,7 @@ const NavRightItem = styled.a`
   text-decoration: none;
   &:hover {
       color: ${theme.colors.red};
-      cursor: default;
+      cursor: pointer;
   }
 `;
 
